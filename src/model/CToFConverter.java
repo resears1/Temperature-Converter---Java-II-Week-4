@@ -31,7 +31,7 @@ public class CToFConverter {
 	}
 	
 	public void setFahrenheit(int c) {
-		setConvertedFahrenheit((c * (9/5)) + 32);
+		setConvertedFahrenheit((c * 9/5) + 32);
 	}
 
 	@Override
